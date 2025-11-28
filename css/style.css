@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* CONTENT */
@@ -36,10 +37,15 @@ header {
 .tools {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
 }
 
 .tools > div {
   background-color: rgb(56 58 67);
+  height: 30px;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 /* Main */
